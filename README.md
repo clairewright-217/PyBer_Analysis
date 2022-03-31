@@ -18,7 +18,7 @@ The analysis showed that urban cities, which tend to have higher populations and
 
 ### DataFrame Summary
 
-![Ridesharing_Summary_df_Image](Resources/Ridesharing_Summary_df.png)
+![Ridesharing_Summary_df_Image](analysis/Ridesharing_Summary_df.png)
 
 Urban cities had **13x** as many rides on ride sharing apps versus rural areas, and **2.6x** as many as suburban areas. Urban cities also had over **30x** the number of drivers for ride sharing and collected over **9x** the money in total fares than rural areas. Suburban areas fell in between rural and urban areas for total number of drivers and total fares collected on ride sharing apps, with over **6x** the number of drivers and **4.5** the total fares of rural areas, but just **1/5** and **1/2** the number of total drivers and total fares compared to urban areas, respectively. 
 
