@@ -28,7 +28,7 @@ Urban cities had **13x** as many rides on ride sharing apps versus rural areas, 
 
 The total fares per week by city type (rural, suburban, urban) between the period of January 1st - April 28th 2019 were graphed in a line chart. To do this, a dataframe that had a row of data for every ride was aggregated into weeks using the `resample()` method; the index of the dataframe was changed to represent a full week of ride fare data instead of a unique ride per row. 
 
-[PyBer_fare_summary](Resources/PyBer_fare_summary.png)
+!PyBer_fare_summary_Image](analysis/PyBer_fare_summary.png)
 
 We can see from the line graph that urban rides generated the highest total amount of fare money, rural rides generated the least, and suburban rides generated total fare amounts in between urban and rural areas. This trend held true over four months; at no point in time did the rural areas generate more total fares from suburban or rural cities, nor did suburban areas ever generate more than urban areas in total fares. The difference in total fares by city type also held pretty constant. That is, except for a few points in time, the relative fare difference between city types remained constant. In early April, urban areas got a small increase in total fares while suburban and rural areas had a dip in total fares, but the change wasn't that drastic. 
 
