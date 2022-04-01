@@ -2,7 +2,7 @@
 
 ## Analysis Overview
 
-An analysis was done on ride sharing data to show how ride sharing compares between rural, suburban, and urban cities. Two deliverables were provided:
+An analysis was done on ride sharing data for one company show how ride sharing compares between rural, suburban, and urban cities. Two deliverables were provided:
 
 1. A dataframe that breaks down the total rides, total drivers, total fares, average fare per ride, and average fare per driver across the three city types.
 2. A line graph that shows how total fares change over a period of time by city type. 
@@ -20,7 +20,7 @@ The analysis showed that urban cities, which tend to have higher populations and
 
 ![Ridesharing_Summary_df_Image](analysis/Ridesharing_Summary_df.png)
 
-Urban cities had **13x** as many rides on ride sharing apps versus rural areas, and **2.6x** as many as suburban areas. Urban cities also had over **30x** the number of drivers for ride sharing and collected over **9x** the money in total fares than rural areas. Suburban areas fell in between rural and urban areas for total number of drivers and total fares collected on ride sharing apps, with over **6x** the number of drivers and **4.5** the total fares of rural areas, but just **1/5** and **1/2** the number of total drivers and total fares compared to urban areas, respectively. 
+Urban cities had **13x** as many rides on ride the sharing app versus rural areas, and **2.6x** as many as suburban areas. Urban cities also had over **30x** the number of drivers for ride sharing and collected over **9x** the money in total fares than rural areas. Suburban areas fell in between rural and urban areas for total number of drivers and total fares collected on the ride sharing app, with over **6x** the number of drivers and **4.5** the total fares of rural areas, but just **1/5** and **1/2** the number of total drivers and total fares compared to urban areas, respectively. 
 
  The average fare per ride was $10 more in rural areas than urban areas, and the average fare collected by the driver was **3.3x** higher in rural areas than urban areas. 
 
@@ -35,3 +35,11 @@ We can see from the line graph that urban rides generated the highest total amou
 ## Summary
 
 Likely due to the higher volume of rides, the shorter distances between destinations, and the larger number of drivers in urban areas, the average fare per ride and average fare per driver was most expensive in rural areas and least expensive in urban cities.
+
+There are three recommendations for the CEO of this ride sharing business to address the disparaties between city types. 
+
+1. Offer a service that allows multiple people to be picked up by one driver, starting in urban cities only. This could increase the fare per ride in urban cities while not raising prices on riders. If a driver could pick up multiple people needing rides in the same direction, the average fare per driver in urban areas could go up while keeping fare prices low for riders, making drivers and riders happier with the service without hurting revenue for the company. 
+
+2. Offer a service that allows riders to book rides in advance in rural and suburban areas. Since the number of drivers and overall rides are much lower in these areas compared to urban cities, part of the problem is that fares have to be higher since there aren't many drivers available. If the company knew well in advance when someone needs a ride, they could experiment with pricing differently, potentially lowering the high prices for rural customers in cases where rides are booked ahead. This is because you don't need to incentivize a driver to pick someone up at the last minute in a rural area. It's worth offering this in suburban areas too to compare the data on this feature between the two different city types.
+
+3. Do a more detailed analysis on the specific routes taken by riders in all three city types. Are there any routes that are requested very frequently? If so, consider an offer that works more like a bus route. That is, the company sets a predetermined route on the ride sharing app that happens at the same time each day, and riders can reserve their spot in advance. The assumption is that this likely will work best in rural and maybe suburban areas. The potential business advantage is that you could get more riders per driver at predictable times, freeing up more drivers to handle spontaneous rides. This in turn will allow the company to experiment with different pricing and driver incentives to lower the disparaty between urban and surburban, and eventually rural, areas. 
